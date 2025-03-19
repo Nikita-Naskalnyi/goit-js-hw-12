@@ -34,7 +34,8 @@ body {
   border: 1px solid #4e75ff;
   background-color: transparent;
 }
-.form button {
+.form button,
+.load-more-btn {
   border: none;
   border-radius: 8px;
   padding: 8px 16px;
@@ -48,7 +49,8 @@ body {
   color: #fff;
   transition: background-color 250ms linear;
 }
-.form button:hover {
+.form button:hover,
+.load-more-btn:hover {
   background-color: #6c8cff;
 }
 
@@ -159,4 +161,11 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.load-more-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 32px;
+  max-width: 125px;
 }
